@@ -292,7 +292,7 @@ export const CombatSetups = {
 		}),
 
 		default: new CreepSetup(Roles.guardMelee, {
-			pattern  : [TOUGH, ATTACK, ATTACK, ATTACK, MOVE, MOVE, MOVE, MOVE, MOVE, HEAL],
+			pattern  : [TOUGH, MOVE, MOVE, ATTACK, ATTACK, ATTACK, MOVE, MOVE, MOVE, HEAL],
 			sizeLimit: Infinity,
 		}),
 
